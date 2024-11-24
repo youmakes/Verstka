@@ -20,7 +20,7 @@
   gap: 20px;
   padding: 16px 20px 56px;
 }
- 
+
 .section__points {
   width: 32px;
 }
@@ -49,4 +49,8 @@
   flex-direction: column;
   gap: 20px;
   padding-left: 25px;
+}
+
+.footer {
+  background-color: #ff0095;
 }
