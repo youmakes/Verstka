@@ -1,0 +1,52 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.wrapper {
+  width: 360px;
+  margin: auto;
+}
+
+.header {
+  background-color: #ff0095;
+}
+
+.header__logo {
+  padding: 24px 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px 20px 56px;
+}
+ 
+.section__points {
+  width: 32px;
+}
+
+.section__title {
+  font-family: "EB Garamond", "Arial", serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #141414;
+}
+
+.text {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  color: #1b1919;
+}
+
+.text_special {
+  color: #6c6c6c;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 25px;
+}
